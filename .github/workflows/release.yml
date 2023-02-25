@@ -1,0 +1,20 @@
+name: Create a new release
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: npm
+          node-version: 18
+      - run: CI=true npm i -g semantic-release @semantic-release/git @semantic-release/commit-analyzer @semantic-release/changelog @semantic-release/release-notes-generator
+      - run: CI=true semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
