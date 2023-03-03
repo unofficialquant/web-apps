@@ -10,7 +10,7 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@google/clasp": "^2.4.2",
-    "@nrwl/js": "15.8.2",
+    "@nrwl/js": "15.8.3",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "15.8.3",
     "@types/google-apps-script": "^1.0.57",
