@@ -1989,10 +1989,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/google-apps-script@npm:^1.0.57":
-  version: 1.0.57
-  resolution: "@types/google-apps-script@npm:1.0.57"
-  checksum: 21212771f96294d4bf2bada6761ce7a115d7114e4879756ad7355bdec3aeab92e360f50b31dabf49f74404c8bfc7a080f83634fed327d9ab77a65518d2cc2809
+"@types/google-apps-script@npm:^1.0.58":
+  version: 1.0.58
+  resolution: "@types/google-apps-script@npm:1.0.58"
+  checksum: 8ab33094c666a199995ea3cdb4a456af39192399c9824ebee34a7bea4047b45906a872317d306e4717419ec546b817b2419465fa0ecbaa2eca21300d2a6455c8
   languageName: node
   linkType: hard
 
@@ -6603,7 +6603,7 @@ __metadata:
     "@nrwl/js": 15.8.5
     "@nrwl/nx-cloud": latest
     "@nrwl/workspace": 15.8.5
-    "@types/google-apps-script": ^1.0.57
+    "@types/google-apps-script": ^1.0.58
     husky: ^8.0.3
     nx: 15.8.5
     prettier: ^2.8.4
